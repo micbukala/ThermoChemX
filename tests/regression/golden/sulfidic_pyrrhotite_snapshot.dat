@@ -1,0 +1,64 @@
+begin composition snapshot
+# ThermoChemX composition snapshot
+tchx.format_version     1
+tchx.source_file        sulfidic_pyrrhotite
+
+# === input (authoritative; re-import reads ONLY in.* keys) ===
+in.volatile_mode        loi_derived
+in.SiO2                 50.0  # wt%
+in.TiO2                 0.9  # wt%
+in.Al2O3                14.5  # wt%
+in.Cr2O3                0.0  # wt%
+in.MnO                  0.0  # wt%
+in.MgO                  8.0  # wt%
+in.CaO                  10.0  # wt%
+in.NiO                  0.0  # wt%
+in.Na2O                 2.8  # wt%
+in.K2O                  0.5  # wt%
+in.P2O5                 0.0  # wt%
+in.H2O                  0.0  # wt%
+in.LOI                  0.0  # wt%
+in.fe_tot_as_fe2o3_wt   10.0  # wt%
+in.fe3_fetot_ratio      0.1  # ratio
+in.c_tot_wt             0.0  # wt%
+in.co2_ctot_ratio       0.0  # ratio
+in.s_tot_wt             1.2  # wt%
+in.so3_stot_ratio       0.0  # ratio
+in.s1_sred_ratio        0.0  # ratio
+in.sample_name
+
+# === derived (informational only; ignored on import) ===
+der.feo_tot_wt          8.99807  # wt%
+der.fe2_oxide_wt        8.09827  # wt%
+der.fe3_oxide_wt        1.00000  # wt%
+der.fe2_wt              6.29480  # wt%
+der.fe3_wt              0.69942  # wt%
+der.fe2_ugg             62948.00783  # ugg
+der.fe3_ugg             6994.22309  # ugg
+der.co2_wt              0.00000E+00  # wt%
+der.c0_wt               0.00000E+00  # wt%
+der.c4_wt               0.00000E+00  # wt%
+der.c0_ugg              0.00000E+00  # ugg
+der.c4_ugg              0.00000E+00  # ugg
+der.c_ugg               0.00000E+00  # ugg
+der.so3_wt              2.99630  # wt%
+der.s6_wt               0.00000E+00  # wt%
+der.s1_wt               0.00000E+00  # wt%
+der.s2_wt               1.20000  # wt%
+der.s6_ugg              0.00000E+00  # ugg
+der.s1_ugg              0.00000E+00  # ugg
+der.s2_ugg              12000.00000  # ugg
+der.s_ugg               12000.00000  # ugg
+der.fe2_norm_wt         6.52991  # wt%
+der.fe3_norm_wt         0.72555  # wt%
+der.c0_norm_wt          0.00000E+00  # wt%
+der.c4_norm_wt          0.00000E+00  # wt%
+der.s6_norm_wt          0.00000E+00  # wt%
+der.s1_norm_wt          0.00000E+00  # wt%
+der.s2_norm_wt          1.24482  # wt%
+der.total_calculated    99.69630  # wt%
+der.total_model         96.99827  # wt%
+der.phantom_o_wt        0.59877  # wt%
+der.total_model_o_corr  96.39950  # wt%
+der.model_mass_o_corr   1000.00000  # g/kg
+end composition snapshot

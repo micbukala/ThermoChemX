@@ -1,0 +1,64 @@
+DEW17HP622ver_elements.dat     thermodynamic data file                                                                                                
+print    | no_print suppresses print output
+plot     | obsolete 6.8.4+
+solution_model.dat     | solution model file, blank = none
+ 	
+perplex_option.dat     | Perple_X option file
+    5 calculation type: 0- composition, 1- Schreinemakers, 2 - liquidus/solidus, 3- Mixed, 5- gridded min, 7- 1d fract, 8- gwash, 9- 2d fract, 10- 7 w/file input, 11- 9 w/file input, 12- 0d infiltration
+    0 unused place holder, post 06
+    0 unused place holder, post 06
+    0 unused place holder, post 06
+    0 unused place holder, post 06
+    0 unused place holder, post 06
+    0 unused place holder, post 06
+    0 unused place holder, post 06
+    0 unused place holder, post 06
+    0 unused place holder, post 06
+    0 number component transformations
+   22 number of components in the data base
+    0 component amounts, 0 - mole, 1 mass
+    0 unused place holder, post 06
+    0 unused place holder, post 06
+    0 unused place holder, post 05
+    0 ifug EoS for saturated phase
+    2 gridded minimization dimension (1 or 2)
+    0 special dependencies: 0 - P and T independent, 1 - P(T), 2 - T(P)
+ 0.00000      0.00000      0.00000      0.00000      0.00000     Geothermal gradient polynomial coeffs.
+
+begin thermodynamic component list
+H2    1  1.70875      0.00000      0.00000     molar amount
+Fe    1  10.25248      0.00000      0.00000     molar amount
+C    1  3.41756      0.00000      0.00000     molar amount
+S2    1  1.70888      0.00000      0.00000     molar amount
+O2    1  8.54378      0.00000      0.00000     molar amount
+end thermodynamic component list
+
+begin saturated component list
+end saturated component list
+
+
+begin saturated phase component list
+end saturated phase component list
+
+
+begin independent potential/fugacity/activity list
+end independent potential list
+
+
+begin excluded phase list
+h2oL
+S2
+O2
+end excluded phase list
+
+
+begin solution phase list
+COH-Fluid 
+end solution phase list
+
+   40000.0        1073.00        0.00000        0.00000        0.00000     max p, t, xco2, mu_1, mu_2
+   20000.0        473.000        0.00000        0.00000        0.00000     min p, t, xco2, mu_1, mu_2
+   0.00000        0.00000        0.00000        0.00000        0.00000     unused place holder post 06
+
+ 2  1  4  5  3   indices of 1st & 2nd independent & sectioning variables
+

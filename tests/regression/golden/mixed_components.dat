@@ -1,0 +1,15 @@
+begin thermodynamic component list
+Si    1  8.71252      0.00000      0.00000     molar amount
+Ti    1  0.13109      0.00000      0.00000     molar amount
+Al    1  2.87513      0.00000      0.00000     molar amount
+Mn    1  0.02214      0.00000      0.00000     molar amount
+Mg    1  1.29884      0.00000      0.00000     molar amount
+Ca    1  1.49361      0.00000      0.00000     molar amount
+Na    1  0.84461      0.00000      0.00000     molar amount
+K    1  0.33344      0.00000      0.00000     molar amount
+H2    1  0.58116      0.00000      0.00000     molar amount
+Fe    1  1.31127      0.00000      0.00000     molar amount
+C    1  0.87167      0.00000      0.00000     molar amount
+S2    1  0.13061      0.00000      0.00000     molar amount
+O2    1  14.16036      0.00000      0.00000     molar amount
+end thermodynamic component list

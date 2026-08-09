@@ -1,0 +1,80 @@
+begin thermodynamic component list
+Si    1  8.14134      0.00000      0.00000     molar amount
+Ti    1  0.41172      0.00000      0.00000     molar amount
+Al    1  2.80109      0.00000      0.00000     molar amount
+Mn    1  0.04120      0.00000      0.00000     molar amount
+Mg    1  1.29240      0.00000      0.00000     molar amount
+Ca    1  1.53201      0.00000      0.00000     molar amount
+Na    1  0.91959      0.00000      0.00000     molar amount
+K    1  0.23715      0.00000      0.00000     molar amount
+P    1  0.08384      0.00000      0.00000     molar amount
+H2    1  0.26075      0.00000      0.00000     molar amount
+Fe    1  1.67091      0.00000      0.00000     molar amount
+C    1  0.44830      0.00000      0.00000     molar amount
+S2    1  0.02934      0.00000      0.00000     molar amount
+O2    1  13.96571      0.00000      0.00000     molar amount
+end thermodynamic component list
+
+begin composition snapshot
+# ThermoChemX composition snapshot
+tchx.format_version     1
+
+# === input (authoritative; re-import reads ONLY in.* keys) ===
+in.volatile_mode        loi_derived
+in.SiO2                 46.86  # wt%
+in.TiO2                 3.15  # wt%
+in.Al2O3                13.68  # wt%
+in.Cr2O3                0.0  # wt%
+in.MnO                  0.28  # wt%
+in.MgO                  4.99  # wt%
+in.CaO                  8.23  # wt%
+in.NiO                  0.0  # wt%
+in.Na2O                 2.73  # wt%
+in.K2O                  1.07  # wt%
+in.P2O5                 0.57  # wt%
+in.H2O                  0.45  # wt%
+in.LOI                  0.0  # wt%
+in.fe_tot_as_fe2o3_wt   12.78047227325873  # wt%
+in.fe3_fetot_ratio      0.24  # ratio
+in.c_tot_wt             0.515821536503897  # wt%
+in.co2_ctot_ratio       1.0  # ratio
+in.s_tot_wt             0.18020910101552645  # wt%
+in.so3_stot_ratio       0.0  # ratio
+in.s1_sred_ratio        0.0  # ratio
+in.sample_name
+
+# === derived (informational only; ignored on import) ===
+der.feo_tot_wt          11.50000  # wt%
+der.fe2_oxide_wt        8.74000  # wt%
+der.fe3_oxide_wt        3.06731  # wt%
+der.fe2_wt              6.79368  # wt%
+der.fe3_wt              2.14537  # wt%
+der.fe2_ugg             67936.82145  # ugg
+der.fe3_ugg             21453.73309  # ugg
+der.co2_wt              1.89000  # wt%
+der.c0_wt               0.00000E+00  # wt%
+der.c4_wt               0.51582  # wt%
+der.c0_ugg              0.00000E+00  # ugg
+der.c4_ugg              5158.21537  # ugg
+der.c_ugg               5158.21537  # ugg
+der.so3_wt              0.45000  # wt%
+der.s6_wt               0.00000E+00  # wt%
+der.s1_wt               0.00000E+00  # wt%
+der.s2_wt               0.18021  # wt%
+der.s6_ugg              0.00000E+00  # ugg
+der.s1_ugg              0.00000E+00  # ugg
+der.s2_ugg              1802.09101  # ugg
+der.s_ugg               1802.09101  # ugg
+der.fe2_norm_wt         7.09170  # wt%
+der.fe3_norm_wt         2.23949  # wt%
+der.c0_norm_wt          0.00000E+00  # wt%
+der.c4_norm_wt          0.53845  # wt%
+der.s6_norm_wt          0.00000E+00  # wt%
+der.s1_norm_wt          0.00000E+00  # wt%
+der.s2_norm_wt          0.18811  # wt%
+der.total_calculated    97.13047  # wt%
+der.total_model         95.88752  # wt%
+der.phantom_o_wt        0.08993  # wt%
+der.total_model_o_corr  95.79759  # wt%
+der.model_mass_o_corr   1000.00000  # g/kg
+end composition snapshot

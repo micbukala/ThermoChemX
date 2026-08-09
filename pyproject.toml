@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thermochemx"
+version = "1.0.0"
+description = "Redox-aware conversion of whole-rock oxide analyses to mol/kg for thermodynamic phase-equilibrium modelling, with Perple_X-ready export"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE.txt"]
+authors = [
+    { name = "Michał Bukała", email = "michal.bukala@csic.es" },
+]
+keywords = ["geochemistry", "petrology", "thermodynamics", "phase equilibria", "Perple_X", "redox"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: X11 Applications :: Qt",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "PySide6-Essentials>=6.0",
+    "openpyxl>=3.0",
+]
+
+[project.urls]
+Repository = "https://github.com/micbukala/ThermoChemX"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+thermochemx = ["assets/*", "assets/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

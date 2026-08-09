@@ -1,0 +1,3 @@
+# This directory holds generated golden files (.dat, .json).
+# It is populated by running _generate_golden.py on main before any refactor.
+# Do not edit these files manually.

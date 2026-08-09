@@ -1,0 +1,46 @@
+Description;key;;;;;;
+sample label;sample_name;Granite;DMM;Metabasite;Pelite;Serpentinite;D2
+SiO2 (wt%);SiO2_wt;76.68;44.9;46.86;61.25;40.25;0
+TiO2 (wt%);TiO2_wt;0.04;0.13;3.15;0.84;0.12;0
+Al2O3 (wt%);Al2O3_wt;12.46;4.28;13.68;17.75;2.81;0
+Cr2O3 (wt%);Cr2O3_wt;0;0.37;0;0;0.26;0
+MnO (wt%);MnO_wt;0.02;0.13;0.28;0.18;0.1;0
+MgO (wt%);MgO_wt;0.03;38.22;4.99;2.49;38.18;0
+CaO (wt%);CaO_wt;0.67;3.5;8.23;1.15;0.11;0
+NiO (wt%);NiO_wt;0;0.25;0;0;0.22;0
+Na2O (wt%);Na2O_wt;3.53;0.29;2.73;0.99;0;0
+K2O (wt%);K2O_wt;4.72;0.01;1.07;3.76;0;0
+P2O5 (wt%);P2O5_wt;0;0.01;0.57;0.04;0.01;0
+H2O (wt%);H2O_wt;0.16;0.01;0.45;;11.61;2.4174
+loss on ignition (wt%);LOI_wt;;;;5.3;;0
+;;;;;;;
+total iron as Fe2O3 (wt%);Fe2O3_total_wt;;;;;8.04;64.2843
+total iron as FeO (wt%);FeO_total_wt;;8.07;11.5;;;
+Fe3+/Fe_total molar ratio;Fe3plus_Fetotal_ratio;;0.04;0.24;;;0.6667
+ferric iron as Fe2O3 (wt%);Fe2O3_wt;0.98;;4.09;2.05;4.61;
+ferrous iron as FeO (wt%);FeO_wt;0.61;;;3.98;3.09;
+ferrous iron as element (wt%);Fe2plus_wt;;;;;;
+ferric iron as element (wt%);Fe3plus_wt;;;;;;
+ferrous iron (ug/g);Fe2plus_ugg;;;;;;
+ferric iron (ug/g);Fe3plus_ugg;;;;;;
+;;;;;;;
+total carbon as CO2 (wt%);CO2_total_wt;;;1.89;;;11.8112
+total carbon as element (wt%);C_total_wt;;;;;;
+total carbon (ug/g);C_total_ugg;;13.73;;;199;
+C4+/C_total (carbonate fraction) molar ratio;C4plus_Ctotal_ratio;;1;;;1;0.5
+graphitic carbon C0 as element (wt%);C0_wt;;;;;;
+carbonate carbon C4+ as element (wt%);C4plus_wt;;;;;;
+graphitic carbon (ug/g);C0_ugg;;;;;;
+carbonate carbon (ug/g);C4plus_ugg;;;;;;
+;;;;;;;
+total sulfur as SO3 (wt%);SO3_total_wt;;;0.45;;;21.4871
+total sulfur as element (wt%);S_total_wt;;;;;;
+total sulfur (ug/g);S_total_ugg;;119;;;170;
+S6+/S_total (sulfate fraction) molar ratio;S6plus_Stotal_ratio;;;;;;0
+S1-/S_reduced molar ratio;S1minus_Ssulfides_ratio;;;;;;1
+sulfate sulfur S6+ as element (wt%);S6plus_wt;;;;;;
+disulfide sulfur S1- as element (wt%);S1minus_wt;;;;;;
+monosulfide sulfur S2- as element (wt%);S2minus_wt;;;;;;
+sulfate sulfur (ug/g);S6plus_ugg;;;;;80;
+disulfide sulfur (ug/g);S1minus_ugg;;;;;42;
+monosulfide sulfur (ug/g);S2minus_ugg;;;;;48;
