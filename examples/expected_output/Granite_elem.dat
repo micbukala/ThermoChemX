@@ -1,15 +1,15 @@
 begin thermodynamic component list
-Si    1  12.77512      0.00000      0.00000     molar amount
-Ti    1  5.01347E-03      0.00000      0.00000     molar amount
+Si    1  12.77491      0.00000      0.00000     molar amount
+Ti    1  5.01340E-03      0.00000      0.00000     molar amount
 Al    1  2.44652      0.00000      0.00000     molar amount
 Mn    1  2.82223E-03      0.00000      0.00000     molar amount
 Mg    1  7.45088E-03      0.00000      0.00000     molar amount
 Ca    1  0.11960      0.00000      0.00000     molar amount
-Na    1  1.14024      0.00000      0.00000     molar amount
-K    1  1.00318      0.00000      0.00000     molar amount
+Na    1  1.14023      0.00000      0.00000     molar amount
+K    1  1.00317      0.00000      0.00000     molar amount
 H2    1  0.08890      0.00000      0.00000     molar amount
 Fe    1  0.20785      0.00000      0.00000     molar amount
-O2    1  15.39491      0.00000      0.00000     molar amount
+O2    1  15.39469      0.00000      0.00000     molar amount
 end thermodynamic component list
 
 begin composition snapshot
@@ -31,8 +31,8 @@ in.K2O                  4.72  # wt%
 in.P2O5                 0.0  # wt%
 in.H2O                  0.16  # wt%
 in.LOI                  0.0  # wt%
-in.fe_tot_as_fe2o3_wt   1.6579207031902456  # wt%
-in.fe3_fetot_ratio      0.5911018531309971  # ratio
+in.fe_tot_as_fe2o3_wt   1.6579228258448861  # wt%
+in.fe3_fetot_ratio      0.5911010963375735  # ratio
 in.c_tot_wt             0.0  # wt%
 in.co2_ctot_ratio       0.0  # ratio
 in.s_tot_wt             0.0  # wt%
@@ -44,10 +44,10 @@ in.sample_name
 der.feo_tot_wt          1.49181  # wt%
 der.fe2_oxide_wt        0.61000  # wt%
 der.fe3_oxide_wt        0.98000  # wt%
-der.fe2_wt              0.47416  # wt%
-der.fe3_wt              0.68544  # wt%
-der.fe2_ugg             4741.58594  # ugg
-der.fe3_ugg             6854.42146  # ugg
+der.fe2_wt              0.47415  # wt%
+der.fe3_wt              0.68543  # wt%
+der.fe2_ugg             4741.54348  # ugg
+der.fe3_ugg             6854.33863  # ugg
 der.co2_wt              0.00000E+00  # wt%
 der.c0_wt               0.00000E+00  # wt%
 der.c4_wt               0.00000E+00  # wt%
@@ -63,7 +63,7 @@ der.s1_ugg              0.00000E+00  # ugg
 der.s2_ugg              0.00000E+00  # ugg
 der.s_ugg               0.00000E+00  # ugg
 der.fe2_norm_wt         0.47463  # wt%
-der.fe3_norm_wt         0.68613  # wt%
+der.fe3_norm_wt         0.68612  # wt%
 der.c0_norm_wt          0.00000E+00  # wt%
 der.c4_norm_wt          0.00000E+00  # wt%
 der.s6_norm_wt          0.00000E+00  # wt%

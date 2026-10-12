@@ -1,0 +1,71 @@
+begin thermodynamic component list
+FeO    1  10.44529      0.00000      0.00000     molar amount
+H2O    1  1.74082      0.00000      0.00000     molar amount
+CO2    1  1.91502      0.00000      0.00000     molar amount
+S2    1  1.74086      0.00000      0.00000     molar amount
+O2    1  0.69646      0.00000      0.00000     molar amount
+end thermodynamic component list
+
+begin composition snapshot
+# ThermoChemX composition snapshot
+tchx.format_version     1
+
+# === input (authoritative; re-import reads ONLY in.* keys) ===
+in.volatile_mode        direct
+in.SiO2                 0.0  # wt%
+in.TiO2                 0.0  # wt%
+in.Al2O3                0.0  # wt%
+in.Cr2O3                0.0  # wt%
+in.MnO                  0.0  # wt%
+in.MgO                  0.0  # wt%
+in.CaO                  0.0  # wt%
+in.NiO                  0.0  # wt%
+in.Na2O                 0.0  # wt%
+in.K2O                  0.0  # wt%
+in.P2O5                 0.0  # wt%
+in.H2O                  2.553  # wt%
+in.LOI                  0.0  # wt%
+in.fe_tot_as_fe2o3_wt   67.893  # wt%
+in.fe3_fetot_ratio      0.6667  # ratio
+in.c_tot_wt             1.8724715064758009  # wt%
+in.co2_ctot_ratio       0.9091  # ratio
+in.s_tot_wt             9.088424125850107  # wt%
+in.so3_stot_ratio       0.0  # ratio
+in.s1_sred_ratio        1.0  # ratio
+in.sample_name
+
+# === derived (informational only; ignored on import) ===
+der.feo_tot_wt          61.09063  # wt%
+der.fe2_oxide_wt        20.36151  # wt%
+der.fe3_oxide_wt        45.26426  # wt%
+der.fe2_wt              15.82704  # wt%
+der.fe3_wt              31.65884  # wt%
+der.fe2_ugg             158270.43417  # ugg
+der.fe3_ugg             316588.35422  # ugg
+der.co2_wt              6.86100  # wt%
+der.c0_wt               0.17021  # wt%
+der.c4_wt               1.70226  # wt%
+der.c0_ugg              1702.07660  # ugg
+der.c4_ugg              17022.63847  # ugg
+der.c_ugg               18724.71506  # ugg
+der.so3_wt              22.69300  # wt%
+der.s6_wt               0.00000E+00  # wt%
+der.s1_wt               9.08842  # wt%
+der.s2_wt               0.00000E+00  # wt%
+der.s6_ugg              0.00000E+00  # ugg
+der.s1_ugg              90884.24126  # ugg
+der.s2_ugg              0.00000E+00  # ugg
+der.s_ugg               90884.24126  # ugg
+der.fe2_norm_wt         19.44180  # wt%
+der.fe3_norm_wt         38.88943  # wt%
+der.c0_norm_wt          0.20908  # wt%
+der.c4_norm_wt          2.09105  # wt%
+der.s6_norm_wt          0.00000E+00  # wt%
+der.s1_norm_wt          11.16414  # wt%
+der.s2_norm_wt          0.00000E+00  # wt%
+der.total_calculated    100.00000  # wt%
+der.total_model         83.67474  # wt%
+der.phantom_o_wt        2.26743  # wt%
+der.total_model_o_corr  81.40731  # wt%
+der.model_mass_o_corr   1000.00000  # g/kg
+end composition snapshot
