@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use ThermoChemX, please cite it using the metadata below."
+type: software
+title: "ThermoChemX: redox-aware bulk compositions for Perple_X thermodynamic modeling"
+version: 1.0.0
+date-released: 2026-10-15
+license: GPL-3.0-or-later
+repository-code: "https://github.com/micbukala/ThermoChemX"
+url: "https://github.com/micbukala/ThermoChemX"
+abstract: >-
+  Cross-platform desktop application that converts whole-rock analyses into
+  Perple_X-ready bulk compositions (mol/kg) with explicit Fe, C and S redox
+  partitioning, automated volatile handling, phantom-oxygen correction,
+  a runtime mass-closure check and re-importable composition snapshots,
+  in both the element and the oxide basis.
+keywords:
+  - thermodynamic modeling
+  - phase equilibria
+  - Perple_X
+  - redox
+  - Deep Earth Water
+  - petrology
+  - geochemistry
+authors:
+  - family-names: "Bukała"
+    given-names: "Michał"
+    affiliation: "Andalusian Earth Science Institute (IACT-CSIC), Spanish National Research Council, Granada, Spain"
+    email: "michal.bukala@csic.es"
+    orcid: "https://orcid.org/0000-0001-7045-3150"
+  - family-names: "Cristóbal"
+    given-names: "L. Samuel"
+    affiliation: "Andalusian Earth Science Institute (IACT-CSIC), Spanish National Research Council, Granada, Spain"
+    orcid: "https://orcid.org/0009-0006-8801-5777"
+  - family-names: "Menzel"
+    given-names: "Manuel D."
+    affiliation: "Andalusian Earth Science Institute (IACT-CSIC), Spanish National Research Council, Granada, Spain"
+    orcid: "https://orcid.org/0000-0002-4681-9447"
+  - family-names: "Garrido"
+    given-names: "Carlos J."
+    affiliation: "Andalusian Earth Science Institute (IACT-CSIC), Spanish National Research Council, Granada, Spain"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+  - family-names: "Padrón-Navarta"
+    given-names: "José Alberto"
+    affiliation: "Andalusian Earth Science Institute (IACT-CSIC), Spanish National Research Council, Granada, Spain"
+    orcid: "https://orcid.org/0000-0003-1005-0012"
