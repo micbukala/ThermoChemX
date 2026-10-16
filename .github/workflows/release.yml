@@ -1,0 +1,28 @@
+# Pushing a tag v* creates a GitHub Release automatically.
+# With the Zenodo–GitHub integration enabled, Zenodo archives that
+# release and mints a DOI.
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ThermoChemX ${{ github.ref_name }}
+          generate_release_notes: true
+          body: |
+            ThermoChemX ${{ github.ref_name }} — redox speciation and mass closure in bulk compositions for Gibbs free energy minimization modeling.
+            Companion software for Bukała et al., SoftwareX (submitted).
+            Install: see README.md. Worked example: docs/manual.md.
